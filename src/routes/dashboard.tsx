@@ -1,6 +1,6 @@
 import DashboardLayout from '@/layouts/DashboardLayout'
 import { SignInButton, useAuth, useUser } from '@clerk/clerk-react'
-import { createFileRoute, Outlet, useLocation, useParams } from '@tanstack/react-router'
+import { createFileRoute, Outlet, useLocation } from '@tanstack/react-router'
 import Lottie from 'lottie-react'
 import LoadingAnimation from '../../public/Animation - 1729510714673.json'
 import { ReactSVG } from 'react-svg'

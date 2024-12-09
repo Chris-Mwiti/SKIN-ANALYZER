@@ -32,7 +32,8 @@ export default function Store({children}: {children: React.ReactElement}) {
                 width: 0,
                 height: 0
             }
-        ]
+        ],
+        heatmap_image: ''
    })
     return (
         <StoreContext.Provider value={{

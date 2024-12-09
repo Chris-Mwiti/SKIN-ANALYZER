@@ -1,9 +1,8 @@
-import Hero from '@/components/elements/Hero'
 import { Button } from '@/components/ui/button'
 import LandingLayout from '@/layouts/LandingLayout'
 import { createFileRoute, Link } from '@tanstack/react-router'
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
-import { CheckCircle, Menu, Smartphone, Upload, Zap } from "lucide-react"
+import { Card, CardContent } from "@/components/ui/card"
+import { CheckCircle, Smartphone, Upload, Zap } from "lucide-react"
 import PricingStrategy from '@/components/elements/PricingStrategy'
 
 

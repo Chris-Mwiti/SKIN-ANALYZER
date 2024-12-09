@@ -1,4 +1,4 @@
-import { SignedIn, SignedOut, SignIn, SignInButton, SignUpButton, useUser } from "@clerk/clerk-react";
+import { SignedOut, SignInButton, SignUpButton, useUser } from "@clerk/clerk-react";
 import { Link } from "@tanstack/react-router";
 import { Button } from "../ui/button";
 

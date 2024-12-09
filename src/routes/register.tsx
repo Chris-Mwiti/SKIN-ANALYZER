@@ -51,28 +51,15 @@ export default function MultiRegistrationForm() {
     }))
   }
 
-  const handleSubmit = (e: React.ChangeEvent<HTMLInputElement>) => {
-    e.preventDefault()
-    const currentStep = ['hospital', 'doctors', 'managers'][step - 1]
-    console.log(`Step ${step} data:`, formData[currentStep])
     
-    
-    // Here you would typically send the data to your backend
-    // For demonstration, we're just logging it to the console
-    
-    if (step < 4) {
-      setStep(step + 1)
-    }
-  }
-   
   const [hospitalId, setHospitaId] = useState<string | number>(0)
   console.log(hospitalId)
 
-  const {isPending: hospitalPending, error: hospitalError, mutate:hopsitalMutate, reset: hospitalReset} = useHospitalRegistration()
+  const {isPending: hospitalPending, mutate:hopsitalMutate, reset: hospitalReset} = useHospitalRegistration()
   const hospitalInfoSubmit = () => {
     const currentStep = ['hospital', 'doctors', 'managers'][step - 1]
     hopsitalMutate(formData[currentStep], {
-      onError: (error) => {
+      onError: () => {
         toast({
           description: "Error while creating hospital",
           title: "An error has occured",
@@ -80,13 +67,13 @@ export default function MultiRegistrationForm() {
           variant: "destructive"
         })
       }, 
-      onSuccess(data, variables, context) {
+      onSuccess(data) {
         setHospitaId(data.id)
       },
     })
     if(!hospitalPending) return setStep((prev) => prev + 1 as number)
   }
-  const { isPending: doctorsPending, error: doctorError, mutate: doctorMutate, reset: doctorReset } = useDoctorsRegistration()
+  const { isPending: doctorsPending, mutate: doctorMutate, reset: doctorReset } = useDoctorsRegistration()
   const doctorInfoSubmit = () => {
     const currentStep = ['hospital', 'doctors', 'managers'][step - 1]
     const updatedFormData = formData[currentStep].map((data: TDoctors) => {
@@ -97,7 +84,7 @@ export default function MultiRegistrationForm() {
    })    
     console.log(updatedFormData);
     doctorMutate(updatedFormData, {
-      onError: (error) => {
+      onError: () => {
         toast({
           description: "Error while creating doctor",
           title: "An error has occured",
@@ -108,7 +95,7 @@ export default function MultiRegistrationForm() {
     })
     if(!doctorsPending)  return setStep((prev) => prev + 1 as number)
   }
-  const { isPending: managerPending, error: managerError, mutate: managerMutate, reset: managerReset } = useManagerRegistration()
+  const { isPending: managerPending, mutate: managerMutate, reset: managerReset } = useManagerRegistration()
   const managerSubmit = () => {
     const currentStep = ['hospital', 'doctors', 'managers'][step - 1]
      const updatedFormData = formData[currentStep].map((data: TManagers) => {
@@ -119,7 +106,7 @@ export default function MultiRegistrationForm() {
    })    
 
     managerMutate(updatedFormData, {
-      onError: (error) => {
+      onError: () => {
         toast({
           description: "Error while creating doctor",
           title: "An error has occured",
@@ -225,7 +212,7 @@ export default function MultiRegistrationForm() {
                 <div key={index} className="space-y-4 p-4 border rounded-md">
                   <h3 className="font-semibold">Doctor {index + 1}</h3>
                   <div className="space-y-2">
-                    <Label htmlFor={`username-${index}`}>Username</Label>
+                    <Label htmlFor={`username-${index}-${doctor}`}>Username</Label>
                     <Input 
                       id={`username-${index}`} 
                       placeholder="Enter username"
@@ -284,7 +271,7 @@ export default function MultiRegistrationForm() {
                 <div key={index} className="space-y-4 p-4 border rounded-md">
                   <h3 className="font-semibold">Manager {index + 1}</h3>
                   <div className="space-y-2">
-                    <Label htmlFor={`username-${index}`}>Username</Label>
+                    <Label htmlFor={`username-${index}-${manager}`}>Username</Label>
                     <Input 
                       id={`username-${index}`} 
                       placeholder="Enter username"

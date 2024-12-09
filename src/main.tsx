@@ -6,7 +6,6 @@ import { createRouter, RouterProvider } from '@tanstack/react-router'
 import Store from './store/store.tsx'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { ClerkProvider } from '@clerk/clerk-react';
-import { ToastProvider } from '@radix-ui/react-toast'
 
 const router = createRouter({ routeTree })
 const queryClient = new QueryClient()

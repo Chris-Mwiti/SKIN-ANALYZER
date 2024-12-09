@@ -10,10 +10,10 @@ export type TDiseaseReport = {
   symptoms: string | string[],
   treatment: string | string[]
 }
-export default function ReportAnalyzer({ src, analyzerValue, }: {src: string, analyzerValue: IAnalyzerReport,
+export default function ReportAnalyzer({ analyzerValue }: {src: string, analyzerValue: IAnalyzerReport,
 }) {
   console.log(analyzerValue.condition)
-  const { isLoading, error, isError, data, refetch } = useQuery({
+  const { isLoading, isError, data, refetch } = useQuery({
     queryKey: ["Prescribed_Results"],
     queryFn: () => axios.get<TDiseaseReport>(`http://localhost:3000/diseases/${analyzerValue.condition}`).then(res => res.data),
   })

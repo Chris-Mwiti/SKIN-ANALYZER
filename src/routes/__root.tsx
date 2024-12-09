@@ -1,5 +1,5 @@
 import { ToastProvider } from '@/components/ui/toast'
-import { Link, Navigate, Outlet, createRootRoute } from '@tanstack/react-router'
+import { Outlet, createRootRoute } from '@tanstack/react-router'
 
 export const Route = createRootRoute({
   component: RootLayout

@@ -1,15 +1,11 @@
-import { HamburgerMenuIcon } from "@radix-ui/react-icons"
-import { Link, Outlet } from "@tanstack/react-router"
+import { Link } from "@tanstack/react-router"
 import { Button } from "@/components/ui/button"
-import { SignedIn, SignedOut, SignInButton, SignOutButton, SignUpButton, useAuth, useUser } from "@clerk/clerk-react"
-import { useEffect } from "react";
-import { useNavigate } from "@tanstack/react-router";
+import { SignedIn, SignedOut, SignInButton, SignOutButton, SignUpButton, useAuth } from "@clerk/clerk-react"
 import { DollarSign, Home, Info, Library, LogOut, Smartphone } from "lucide-react";
 import SideBar from "@/components/elements/SideBar";
 
 export default function LandingLayout({children}: {children: React.ReactElement[] | React.ReactElement}) {
-  const { userId, isLoaded, isSignedIn } = useAuth();
-  const navigate = useNavigate()
+  const { userId, isLoaded } = useAuth();
   if(!isLoaded) return (
     <div className="w-screen h-screen flex items-center justify-center">
       <p className="text-lg font-medium">

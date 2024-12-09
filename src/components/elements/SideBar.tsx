@@ -1,4 +1,4 @@
-import { GanttChart, HamIcon, LucideIcon } from "lucide-react";
+import { GanttChart, LucideIcon } from "lucide-react";
 import { Sheet, SheetContent, SheetFooter, SheetHeader, SheetTrigger } from "../ui/sheet";
 import { Button } from "../ui/button";
 import { Link } from "@tanstack/react-router";

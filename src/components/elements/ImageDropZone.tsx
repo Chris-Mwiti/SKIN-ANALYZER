@@ -1,12 +1,13 @@
 import { CircleDashed, Upload, X } from "lucide-react"
-import { useState, useCallback, useEffect } from "react"
-import Dropzone, {useDropzone} from 'react-dropzone'
+import { useState, useEffect } from "react"
+import Dropzone from 'react-dropzone'
 import { Button } from "../ui/button";
 import {useMutation, useQuery} from '@tanstack/react-query'
 import axios from 'axios'
 import { IAnalyzerReport } from "@/store/store";
 import ReportAnalyzer, { TDiseaseReport } from "./ReportAnalyzer";
 import axiosInstance from "../../../config/axios";
+import backendUrl from "@/consts/consts";
 export default function ImageDropZone() {
   const [images, setImages] = useState<string>(); // State to store image preview URLs
   const [uploadedFile, setUploadedFile] = useState<File>();
@@ -24,30 +25,28 @@ export default function ImageDropZone() {
     heatmap_image: ''
   })
 
-  const [heatmapImageUrl, setHeatmapImageUrl] = useState<string>('');
   const thumbnailImages:string[] = [];
   const handleSubmit =  () => {
     const formData = new FormData();
     formData.append('file', uploadedFile!);
     return formData
   };
-  const { isLoading, error, isError, data, refetch } = useQuery({
+  const { refetch } = useQuery({
     queryKey: ["Prescribed_Results"],
     queryFn: () => axios.get<TDiseaseReport>(`http://localhost:3000/diseases/${prediction.condition}`).then(res => res.data),
     enabled: false 
   })
-  const { isPending, mutate,data:predictionData } = useMutation({
+  const { isPending, mutate } = useMutation({
     mutationKey: ["Analyzer_Value"],
-    mutationFn: () => axios.post<IAnalyzerReport>('http://127.0.0.1:5000/analyze',handleSubmit(), {
+    mutationFn: () => axios.post<IAnalyzerReport>(`${backendUrl}/analyze`,handleSubmit(), {
       headers: {
         'Content-Type': 'multipart/form-data',
       },
     }).then(res => res.data),
     
-    onSuccess(data, variables, context) {
+    onSuccess(data ) {
       setPrediction(data)
       console.log(data)
-      setHeatmapImageUrl(`data:image/jpeg;base64,${data.heatmap_image}`);
     },
 
   })
@@ -114,7 +113,7 @@ export default function ImageDropZone() {
                 <Button variant={"default"} onClick={() => mutate()} className="w-full">
                   {isPending ? <CircleDashed className="animate-spin size-4" /> : "Upload"}
                 </Button>
-                <Button variant={'outline'} onClick={() => axiosInstance.get("http://127.0.0.1:5000/scan").then((res) => scanResult({condition: "Unknown_Normal ", sypmptoms: '', treatment: ''}))} className="w-full text-foreground">
+                <Button variant={'outline'} onClick={() => axiosInstance.get(`${backendUrl}/scan`).then(() => scanResult({condition: "Unknown_Normal ", sypmptoms: '', treatment: ''}))} className="w-full text-foreground">
                   Scan
                 </Button>
 

@@ -1,7 +1,5 @@
-import ElemAnalyzer from '@/components/elements/Element'
 import ImageDropZone from '@/components/elements/ImageDropZone'
 import PatientForm from '@/components/elements/PatientForm'
-import ReportAnalyzer from '@/components/elements/ReportAnalyzer'
 import { createFileRoute } from '@tanstack/react-router'
 
 export const Route = createFileRoute('/dashboard/$userId/analyzer')({
