@@ -33,7 +33,7 @@ export default function ImageDropZone() {
   };
   const { refetch } = useQuery({
     queryKey: ["Prescribed_Results"],
-    queryFn: () => axios.get<TDiseaseReport>(`http://localhost:3000/diseases/${prediction.condition}`).then(res => res.data),
+    queryFn: () => axios.get<TDiseaseReport>(`/api/${prediction.condition}`).then(res => res.data),
     enabled: false 
   })
   const { isPending, mutate } = useMutation({
