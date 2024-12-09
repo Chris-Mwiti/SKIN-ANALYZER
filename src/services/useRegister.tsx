@@ -1,6 +1,5 @@
 import { useMutation } from "@tanstack/react-query";
 import axiosInstance from '../../config/axios'
-import { number } from "zod";
 
 export type THospital = {
     name:string;
