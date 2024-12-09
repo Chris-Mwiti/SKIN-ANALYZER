@@ -1,0 +1,156 @@
+{
+  "diseases": [
+    {
+      "id": "Acne",
+      "name": "Acne",
+      "description": "Acne is a common skin condition where the pores of your skin clog. Pore blockages produce blackheads, whiteheads, and other types of pimples. The medical term for acne is acne vulgaris.",
+      "symptoms": [
+        "Pimples (pustules): Pus-filled bumps.",
+        "Papules: Small, discolored bumps.",
+        "Blackheads: Plugged pores with a black top.",
+        "Whiteheads: Plugged pores with a white top.",
+        "Nodules: Large lumps under your skin that are painful.",
+        "Cysts: Painful fluid-filled lumps under your skin."
+      ],
+      "treatment": [
+        "Oral or topical medications.",
+        "Medicated therapies.",
+        "Treatment to heal blemishes and stop new pimples from forming."
+      ]
+    },
+    {
+      "id": "Drug Eruption",
+      "name":"Drug Eruption",
+      "description": "A drug eruption is a skin reaction to medication, commonly presenting as a red, itchy rash.",
+      "symptoms": [
+        "Red, itchy rash.",
+        "Papules, vesicles, or pustules.",
+        "Involvement of skin folds or generalized rash.",
+        "Itching, sometimes accompanied by fever."
+      ],
+      "treatment": [
+        "Stop the triggering medication.",
+        "Antihistamines for itching.",
+        "Topical or oral corticosteroids for inflammation.",
+        "Antibiotic ointments for open sores."
+      ]
+    },
+    {
+      "id": "Eczema",
+      "name": "Eczema",
+      "description": "Eczema causes dry, itchy, inflamed skin due to a weakened skin barrier.",
+      "symptoms": [
+        "Dry skin.",
+        "Itchy, bumpy rash.",
+        "Thick, leathery patches.",
+        "Flaky or scaly skin."
+      ],
+      "treatment": [
+        "Moisturizers for dry skin.",
+        "Topical steroids and anti-inflammatory medications.",
+        "Light therapy for severe cases.",
+        "Avoiding triggers."
+      ]
+    },
+    {
+      "id": "Lichen",
+      "name": "Lichen",
+      "description": "Lichen planus is a rash that can develop on the skin, inside the mouth, or on nails.",
+      "symptoms": [
+        "Tiny, raised bumps.",
+        "White dots inside mouth.",
+        "Nail color change or loss."
+      ],
+      "treatment": [
+        "Corticosteroids.",
+        "Antihistamines.",
+        "Phototherapy.",
+        "Retinoids and immunosuppressants for severe cases."
+      ]
+    },
+    {
+      "id": "Psoriasis",
+      "name": "Psoriasis",
+      "description": "Psoriasis is a chronic autoimmune skin condition that causes scaling and inflammation.",
+      "symptoms": [
+        "Red patches covered with silvery scales.",
+        "Dry, cracked skin.",
+        "Itching or soreness.",
+        "Pitted or ridged nails."
+      ],
+      "treatment": [
+        "Topical corticosteroids and vitamin D analogues.",
+        "Phototherapy.",
+        "Systemic medications."
+      ]
+    },
+    {
+      "id": "Skin Cancer",
+      "name": "Skin Cancer",
+      "description": "Skin cancer involves abnormal growth of skin cells, often due to UV radiation. Types include basal cell carcinoma, squamous cell carcinoma, and melanoma.",
+      "symptoms": [
+        "Non-healing growth or sore.",
+        "Mole changes.",
+        "Scaly patches.",
+        "Dark lesions."
+      ],
+      "treatment": [
+        "Surgical removal.",
+        "Radiation therapy.",
+        "Chemotherapy for advanced cases.",
+        "Topical treatments for localized cancers."
+      ]
+    },
+    {
+      "id": "Tinea",
+      "name": "Tinea",
+      "description": "Tinea, or ringworm, is a fungal infection that affects skin, hair, and nails.",
+      "symptoms": [
+        "Itchy, red, circular rash.",
+        "Flaky skin.",
+        "Hair loss in affected areas."
+      ],
+      "treatment": [
+        "Topical or oral antifungals.",
+        "Proper hygiene and moisture control."
+      ]
+    },
+    {
+      "id": "Vitiligo",
+      "name": "Vitiligo",
+      "description": "Vitiligo causes skin color loss in patches due to the loss of melanocytes.",
+      "symptoms": [
+        "White patches on skin.",
+        "Premature graying of hair.",
+        "Discoloration in mucous membranes."
+      ],
+      "treatment": [
+        "Topical corticosteroids.",
+        "Light therapy.",
+        "Surgery for repigmentation.",
+        "Cosmetic solutions for covering affected areas."
+      ]
+    },
+    {
+      "id": "Warts",
+      "name": "Warts",
+      "description": "Warts are skin growths caused by the human papillomavirus (HPV), commonly on hands, feet, and other parts of the body.",
+      "symptoms": [
+        "Small, rough growths on skin.",
+        "Flat or raised bumps."
+      ],
+      "treatment": [
+        "Salicylic acid treatments.",
+        "Cryotherapy.",
+        "Electrosurgery or laser therapy for resistant warts."
+      ]
+    },
+    {
+      "id": "Unknown_Normal",
+      "name": "Unknown_Normal",
+      "description": "Normal skin with no observable disease or abnormalities.",
+      "symptoms": [],
+      "treatment": []
+    }
+  ]
+}

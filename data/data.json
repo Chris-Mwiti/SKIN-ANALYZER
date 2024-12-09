@@ -1,0 +1,12 @@
+{
+    "Skin_Diseases": [
+        {
+            "id": 1,
+            "Disease_Name": "Eczema",
+            "Description": "Eczema is a skin disease",
+            "Symptoms": "Dry Skin, Itches",
+            "Treatment": "Treatment is unique"
+        }
+    ],
+    "Patients": []
+}

@@ -1,0 +1,308 @@
+{
+  "diseases": [
+    {
+      "id": "Acne",
+      "name": "Acne",
+      "description": "Acne is a common skin condition where the pores of your skin clog. Pore blockages produce blackheads, whiteheads and other types of pimples. Pimples are pus-filled, sometimes painful, bumps on your skin.\n\nThe medical term for acne is acne vulgaris.",
+      "symptoms": "Symptoms of acne on your skin include:\n\n    Pimples (pustules): Pus-filled bumps (papules).\n    Papules: Small, discolored bumps, often red to purple or darker than your natural skin tone.\n    Blackheads: Plugged pores with a black top.\n    Whiteheads: Plugged pores with a white top.\n    Nodules: Large lumps under your skin that are painful.\n    Cysts: Painful fluid-filled (pus) lumps under your skin.",
+      "treatment": "There are several ways to treat acne. Each type of treatment varies based on your age, the type of acne you have and the severity. A healthcare provider might recommend taking oral medications, using topical medications or using medicated therapies to treat your skin. The goal of acne treatment is to stop new pimples from forming and to heal the existing blemishes on your skin."
+    },
+    {
+      "id": "Actinic keratosis",
+      "name": "Actinic keratosis",
+      "description": "Actinic keratosis (AK) is a skin disorder that causes rough, scaly patches of skin. Another name for AK is solar keratosis. AK is a type of precancer, which means that if you don't treat the condition, it could turn into cancer. Without treatment, AK can lead to a type of skin cancer called squamous cell carcinoma.",
+      "symptoms": "The most common cause of actinic keratosis is too much exposure to ultraviolet (UV) light. UV light comes from the sun or indoor tanning equipment, such as tanning beds. UV light can damage your outer layer of skin cells, called keratinocytes.\n\nUsually, the first signs of actinic keratosis are rough, raised bumps on your skin. They can vary in color but often have a yellow or brown crust on top.",
+      "treatment": "Treatment options depend on how many actinic keratoses (AKs) you have and what they look like. Your healthcare provider may recommend removing the skin patches during an office visit.\n\nTo remove actinic keratosis, your provider may use:\n\n    Chemical peels\n    Cryotherapy\n    Excision\n    Photodynamic therapy"
+    },
+    {
+      "id": "Benign tumors",
+      "name": "Benign tumors",
+      "description": "Benign tumors are noncancerous. They're a collection of abnormal cells that, unlike normal cells, multiply more than they should and don't die. The abnormal cells form tumors as they multiply. Your healthcare provider may use the terms \"benign neoplasm\" or \"benign growth\" when talking about your condition.",
+      "symptoms": "Benign tumor symptoms vary depending on where the tumor develops. Here are some examples:\n\n    Bleeding: Uterine fibroids are an example of benign tumors that cause bleeding.\n    Changes in your skin: Benign skin tumors may cause many different symptoms, from tiny red spots no larger than a pinhead and small bumps (cellular dermatofibromas) to clusters of skin tissue at the top of a tiny stalk (acrochordons).\n    Difficulty breathing: Chondromas and hamartomas that affect your airway may make it hard for you to breathe.\n    Headaches and dizziness: A meningioma (benign tumor in your meninges) may cause several symptoms, but headache and dizziness are among the most common ones.\n    Loss of appetite or weight loss: A lipoma or fibroma pressing on your stomach may affect your appetite.\n    Pain: Benign bone tumors often cause pain that doesn't go away and gets worse.",
+      "treatment": "Treatment varies depending on factors like tumor type and your symptoms. For example, you may not need treatment if you have a benign tumor that's not growing or causing any issues. In that case, a healthcare provider may recommend watchful waiting. In watchful waiting, your provider will schedule regular follow-ups so they can watch for changes in your body.\n\nIf there are changes, your provider may:\n\n    Prescribe medications to manage symptoms like pain or swelling.\n    Recommend surgery to remove a benign tumor that's causing symptoms because it's pressing on tissues or organs."
+    },
+    {
+      "id": "Bullous pemphigoid",
+      "name": "Bullous pemphigoid",
+      "description": "Bullous pemphigoid is a rare skin condition that causes itchy, hive-like welts or fluid-filled blisters. It may affect a small area of your body or it may be widespread. Blisters may occur anywhere, but often develop on flexural areas of your skin, such as under your armpits (axilla), around your groin or on your stomach (abdomen). In some cases, blisters also form on mucous membranes, including your mouth, tongue, throat, esophagus and/or eyes.",
+      "symptoms": "Bullous pemphigoid appears as itchy welts that look like hives or multiple, itchy blisters (bullae). It most commonly appears on your:\n\n    Arms.\n    Legs.\n    Abdomen.\n    Groin.\n    Mouth.\n\nThe blisters typically appear along the creases of your skin. They usually aren't painful, but they may break open and become a painful sore or ulcer.",
+      "treatment": "For mild cases of bullous pemphigoid, the best treatments are topical corticosteroid creams or ointments that you rub directly on the affected areas.\n\nFor moderate-to-severe cases of bullous pemphigoid, your healthcare provider may prescribe an oral corticosteroid, like prednisone, in addition to a steroid-sparing immunomodulatory agent such as dapsone, mycophenolate mofetil, azathioprine, methotrexate or chlorambucil.\n\nIf you can't take can't corticosteroids or other immunomodulatory agents, your healthcare provider may prescribe oral tetracycline or doxycycline pills.\n\nFor refractory cases of bullous pemphigoid, your healthcare provider may prescribe rituximab or IVIG infusions."
+    },
+    {
+      "name": "Candidiasis",
+      "description": "Candidiasis is a fungal infection caused by an overgrowth of a type of yeast that lives on your body (Candida albicans). A candidiasis infection often appears on your skin, vagina or mouth, where Candida naturally lives in small amounts. Healthy bacteria on your body prevent yeast overgrowth.",
+      "symptoms": "Symptoms of candidiasis vary depending on the location of the infection. Symptoms of candidiasis include:\n\n    Red patch of skin (rash) with small, raised bumps (pustules).\n    Itching.\n    Burning sensation.\n    Vaginal discharge (white or yellow).\n    White patches or sores in your mouth that cause loss of taste or pain when eating or swallowing.\n    Swelling (inflammation).",
+      "treatment": "After diagnosis, your healthcare provider will recommend several different treatment options depending on the type of candidiasis you have. All candidiasis treatment involves using or taking an antifungal medication that is either oral (pill, lozenge or liquid) or topical (cream or ointment). Each antifungal medicine has specific instructions, so make sure you ask your healthcare provider to explain how to apply or take the medication and how long you should take it."
+    },
+    {
+      "id": "Drug eruption",
+      "name": "Drug eruption",
+      "description": "A drug eruption, also known as a drug rash or drug reaction, is a skin condition caused by a medication. Any medication can cause a drug eruption, and drug eruptions can range in severity from mild to severe. While they range in appearance and severity, there is most commonly a red, itchy rash of some form.",
+      "symptoms": "Drug eruptions can appear as a variety of skin rashes, including pink-to-red papules (small, solid bumps), urticaria (hives), vesicles (small blisters), pustules (small pus-filled bumps), bullae (blisters larger than a thumbnail), or sensitivity to sunlight. In darker skin colors, the redness may be harder to see. Drug eruptions may involve the entire skin surface, or they may be limited to one or a few body parts. Most often, the rash appears in skin fold areas such as the underarms or groin, on the trunk, or on the arms and legs.\n\nItching is common with many drug eruptions, and there may be a fever. If a fever is present, the skin is tender, or the membranes inside the mouth or the genitalia are involved, then a more serious skin condition may be present",
+      "treatment": "If your medical professional suspects a drug eruption, they may want to establish the correct diagnosis by performing a biopsy of the lesion. In addition, they may want to perform blood work to look for signs of an allergic reaction.\n\nThe best treatment for a drug eruption is to stop the medication that is causing it. However, stopping a prescription medication should be done only with a medical professional's guidance. After discontinuing a medicine, it may take 5-10 days to see an improvement in the skin and up to 3 weeks for the rash to resolve completely.\n\nOther treatments to improve symptoms may include:\n\n    Oral antihistamine pills, such as diphenhydramine hydrochloride, hydroxyzine, cetirizine, or loratadine, for itching.\n    Topical corticosteroid (cortisone) creams or lotions for red, inflamed skin.\n    Oral corticosteroids (eg, prednisone) for severe eruptions.\n    Topical antibiotic ointments for open sores."
+    },
+    {
+      "id": "Eczema",
+      "name": "Eczema",
+      "description": "Eczema is a condition that causes your skin to become dry, itchy and bumpy. This condition weakens your skin’s barrier function, which is responsible for helping your skin retain moisture and protecting your body from outside elements.\n\nEczema is a type of dermatitis. Dermatitis is a group of conditions that cause skin inflammation.",
+      "symptoms": [
+        "Dry skin.",
+        "Itchy skin.",
+        "Skin rash.",
+        "Bumps on your skin.",
+        "Thick, leathery patches of skin.",
+        "Flaky, scaly or crusty skin.",
+        "Swelling."
+      ],
+      "treatment": [
+        "Using gentle or sensitive skin moisturizers throughout the day when you have dry skin. Apply moisturizer when your skin is damp after a bath or shower.",
+        "Apply topical medications to your skin as advised by your provider, like topical steroids.",
+        "Take oral medications like anti-inflammatory medicines, antihistamines or corticosteroids to reduce itchiness and swelling.",
+        "Immunosuppressant drugs help regulate how your immune system functions.",
+        "Light therapy to improve the appearance of your skin and remove blemishes.",
+        "Avoid triggers that cause symptoms of eczema to flare up."
+      ]
+    },
+    {
+      "id": "Lichen",
+      "name": "Lichen",
+      "description": "Lichen planus (like-en play-nes) is a skin condition that causes a rash to develop on one area of your body or several parts of your body at the same time. It can affect your:\n\n    Skin.\n    Inside of your mouth (oral mucosa).\n    Scalp (skin on your head usually covered with hair).\n    Nails.\n    Genitals (penis, vagina and vulva).\n\nLichen planus is a lichenoid dermatoses. Healthcare providers use the term used to characterize skin disorders according to the presence of firm, raised, discolored bumps on your skin.",
+      "symptoms": [
+        "Tiny, raised dots may develop on your skin, including your genitals.",
+        "Tiny white dots may develop on the skin inside of your cheeks, your tongue or your lips.",
+        "Your nails may change colors, crack or split, stop growing or fall off."
+      ],
+      "treatment": [
+        "Corticosteroid creams or ointments. Your healthcare provider may prescribe corticosteroid creams or ointments to reduce inflammation.",
+        "Antihistamines. Antihistamines are a class of drugs commonly used to treat allergy symptoms, including itchy skin.",
+        "Phototherapy. Phototherapy uses ultraviolet light, usually ultraviolet B (UVB), from special lamps.",
+        "Immunosuppressants. Medications that lower your immune system can be helpful.",
+        "Retinoids (vitamin A derivatives). Retinoids are a pill or ointment that help your body produce more collagen and blood vessels."
+      ]
+    },
+    {
+      "id": "Lupus",
+      "name": "Lupus",
+      "description": "Lupus is a chronic autoimmune disease that can affect various parts of the body, including the skin, joints, kidneys, and heart. It causes the immune system to mistakenly attack healthy tissue.",
+      "symptoms": [
+        "Fatigue.",
+        "Joint pain and swelling.",
+        "Skin rashes, particularly a butterfly-shaped rash across the cheeks and nose.",
+        "Sensitivity to sunlight.",
+        "Fever.",
+        "Hair loss.",
+        "Mouth ulcers."
+      ],
+      "treatment": [
+        "Nonsteroidal anti-inflammatory drugs (NSAIDs) for pain relief.",
+        "Antimalarial drugs such as hydroxychloroquine.",
+        "Corticosteroids to reduce inflammation.",
+        "Immunosuppressants for severe cases.",
+        "Lifestyle changes to manage symptoms."
+      ]
+    },
+    {
+      "id": "Moles",
+      "name": "Moles",
+      "description": "Moles are common skin growths that are usually benign. They can appear anywhere on the body and vary in color, size, and shape.",
+      "symptoms": [
+        "Brown or black spots on the skin.",
+        "Changes in size, shape, or color of existing moles.",
+        "Itching or bleeding moles."
+      ],
+      "treatment": [
+        "Observation for changes.",
+        "Surgical removal if necessary."
+      ]
+    },
+    {
+      "id": "Psoriasis",
+      "name": "Psoriasis",
+      "description": "Psoriasis is a chronic autoimmune skin condition that leads to the rapid buildup of skin cells, causing scaling and inflammation.",
+      "symptoms": [
+        "Red patches of skin covered with thick, silvery scales.",
+        "Dry, cracked skin that may bleed.",
+        "Itching, burning, or soreness.",
+        "Thickened, pitted, or ridged nails."
+      ],
+      "treatment": [
+        "Topical treatments such as corticosteroids and vitamin D analogues.",
+        "Phototherapy to reduce symptoms.",
+        "Systemic medications for severe cases."
+      ]
+    },
+    {
+      "id": "Rosacea",
+      "name": "Rosacea",
+      "description": "Rosacea is a chronic skin condition characterized by facial redness, visible blood vessels, and sometimes acne-like bumps.",
+      "symptoms": [
+        "Facial redness and flushing.",
+        "Visible blood vessels.",
+        "Bumps and pimples on the face.",
+        "Dry or irritated eyes."
+      ],
+      "treatment": [
+        "Topical medications like metronidazole.",
+        "Oral antibiotics for inflammatory lesions.",
+        "Laser therapy to reduce redness."
+      ]
+    },
+    {
+      "id": "Seborrheic Keratoses",
+      "name": "Seborrheic Keratoses",
+      "description": "Seborrheic keratoses are non-cancerous growths that can vary in color and texture. They are often described as 'barnacle-like' and can appear on various parts of the body.",
+      "symptoms": [
+        "Raised, wart-like growths.",
+        "Color variations from light tan to black.",
+        "Itchy or irritated areas."
+      ],
+      "treatment": [
+        "Observation if asymptomatic.",
+        "Cryotherapy, curettage, or laser removal if necessary."
+      ]
+    },
+    {
+      "id": "Skin Cancer",
+      "name": "Skin Cancer",
+      "description": "Skin cancer is the abnormal growth of skin cells, often due to UV radiation from the sun or tanning beds. The three main types of skin cancer are basal cell carcinoma, squamous cell carcinoma, and melanoma.",
+      "symptoms": [
+        "New growth or sore that doesn't heal.",
+        "Changes in an existing mole.",
+        "Scaly or rough patches.",
+        "Dark lesions on the skin."
+      ],
+      "treatment": [
+        "Surgical removal of the cancerous tissue.",
+        "Radiation therapy.",
+        "Chemotherapy for advanced cases.",
+        "Topical medications for localized skin cancers."
+      ]
+    },
+    {
+      "id": "Sun/Sunlight Damage",
+      "name": "Sun/Sunlight Damage",
+      "description": "Sunlight damage refers to the harm caused to the skin by UV radiation, leading to premature aging, wrinkles, and an increased risk of skin cancer.",
+      "symptoms": [
+        "Sunburn.",
+        "Age spots.",
+        "Wrinkles and fine lines.",
+        "Dry, leathery skin."
+      ],
+      "treatment": [
+        "Use of sunscreen to protect against further damage.",
+        "Moisturizers to improve skin hydration.",
+        "Chemical peels or laser treatments for cosmetic improvement."
+      ]
+    },
+    {
+      "id": "Tinea",
+      "name": "Tinea",
+      "description": "Tinea is a fungal infection that can affect the skin, hair, and nails. Common types include tinea corporis (ringworm), tinea pedis (athlete's foot), and tinea capitis (scalp ringworm).",
+      "symptoms": [
+        "Itchy, red, circular rash.",
+        "Flaky or peeling skin.",
+        "Hair loss in affected areas.",
+        "Thickened or discolored nails."
+      ],
+      "treatment": [
+        "Antifungal creams or ointments.",
+        "Oral antifungal medications for severe cases.",
+        "Proper hygiene and moisture control."
+      ]
+    },
+    {
+      "id": "Vascular Tumors",
+      "name": "Vascular Tumors",
+      "description": "Vascular tumors are benign or malignant growths that originate from blood vessels. Common types include hemangiomas and angiosarcomas.",
+      "symptoms": [
+        "Red or purple lesions on the skin.",
+        "Bulging or raised areas.",
+        "Possible bleeding or ulceration in some cases."
+      ],
+      "treatment": [
+        "Observation for benign tumors.",
+        "Surgical removal for symptomatic or malignant cases.",
+        "Laser therapy to reduce appearance."
+      ]
+    },
+    {
+      "id": "Vasculitis",
+      "name": "Vasculitis",
+      "description": "Vasculitis refers to inflammation of blood vessels, which can affect various organs. Cutaneous vasculitis primarily affects the skin, leading to rashes or ulcers.",
+      "symptoms": [
+        "Red or purple spots on the skin.",
+        "Swelling and tenderness.",
+        "Painful ulcers or sores."
+      ],
+      "treatment": [
+        "Corticosteroids to reduce inflammation.",
+        "Immunosuppressive drugs for severe cases.",
+        "Managing underlying conditions."
+      ]
+    },
+    {
+      "id": "Vitiligo",
+      "name": "Vitiligo",
+      "description": "Vitiligo is a skin condition characterized by the loss of skin color in patches. It occurs when melanocytes, the cells responsible for pigment, are destroyed.",
+      "symptoms": [
+        "White patches of skin.",
+        "Loss of color in hair (graying) and inside the mouth.",
+        "Patches may spread over time."
+      ],
+      "treatment": [
+        "Topical corticosteroids or calcineurin inhibitors.",
+        "Light therapy to restore skin color.",
+        "Cosmetic options like makeup or self-tanners."
+      ]
+    },
+    {
+      "id": "Warts",
+      "name": "Warts",
+      "description": "Warts are benign growths on the skin caused by the human papillomavirus (HPV). They can appear anywhere on the body and are typically rough and raised.",
+      "symptoms": [
+        "Rough, raised bumps on the skin.",
+        "Color variations from flesh-colored to dark.",
+        "Pain or discomfort if located on pressure points."
+      ],
+      "treatment": [
+        "Over-the-counter wart treatments containing salicylic acid.",
+        "Cryotherapy to freeze the wart.",
+        "Surgical removal for stubborn warts."
+      ]
+    },
+    {
+      "id": "Normal Skin Conditions",
+      "name": "Normal Skin Conditions",
+      "description": "Normal skin conditions refer to the healthy state of the skin without any abnormalities. These conditions are characterized by a balanced texture, hydration, and absence of visible issues.",
+      "symptoms": [
+        "Smooth texture.",
+        "Even tone without discoloration.",
+        "Hydrated and supple appearance."
+      ],
+      "care": [
+        "Daily cleansing and moisturizing.",
+        "Sun protection to prevent damage.",
+        "Regular exfoliation to maintain skin texture."
+      ]
+    },
+    {
+      "id": "Infestations/Bites",
+      "name": "Infestations/Bites",
+      "description": "Infestations and bites refer to skin reactions caused by parasites, insects, or animals. Common examples include bites from mosquitoes, ticks, fleas, and mites, which can lead to various skin irritations and infections.",
+      "symptoms": [
+        "Redness and swelling at the bite site.",
+        "Itching or burning sensation.",
+        "Blisters or welts.",
+        "Pain or discomfort, depending on the severity of the bite.",
+        "Possible fever or rash in case of secondary infection."
+      ],
+      "treatment": [
+        "Clean the bite area with soap and water.",
+        "Apply antihistamine creams or oral antihistamines to reduce itching.",
+        "Use cold compresses to alleviate swelling and discomfort.",
+        "Topical corticosteroids for severe inflammation.",
+        "Seek medical attention for bites that become infected or show signs of severe allergic reactions."
+      ]
+    }
+  ]
+}

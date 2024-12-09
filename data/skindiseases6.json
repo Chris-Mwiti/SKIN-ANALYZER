@@ -1,0 +1,77 @@
+{
+  "diseases": [
+    {
+      "id": "Acne",
+      "name": "Acne",
+      "description": "Acne is a common skin condition where the pores of your skin clog. Pore blockages produce blackheads, whiteheads, and other types of pimples. Pimples are pus-filled, sometimes painful, bumps on your skin. The medical term for acne is acne vulgaris.",
+      "symptoms": "Symptoms of acne on your skin include:\n\n    Pimples (pustules): Pus-filled bumps (papules).\n    Papules: Small, discolored bumps, often red to purple or darker than your natural skin tone.\n    Blackheads: Plugged pores with a black top.\n    Whiteheads: Plugged pores with a white top.\n    Nodules: Large lumps under your skin that are painful.\n    Cysts: Painful fluid-filled (pus) lumps under your skin.",
+      "treatment": "There are several ways to treat acne. A healthcare provider might recommend taking oral medications, using topical medications, or using medicated therapies. The goal of treatment is to stop new pimples from forming and heal existing blemishes."
+    },
+    {
+      "id": "Carcinoma",
+      "name": "Carcinoma",
+      "description": "Carcinoma is a type of cancer that begins in the skin or the tissues that line or cover internal organs. It is the most common type of cancer.",
+      "symptoms": "Symptoms depend on the type and location of the carcinoma but may include lumps, sores, or abnormal growths on the skin or within internal organs.",
+      "treatment": "Treatment options for carcinoma vary based on the type, location, and severity. They can include surgery, radiation therapy, chemotherapy, and targeted therapy."
+    },
+    {
+      "id": "Eczema",
+      "name": "Eczema",
+      "description": "Eczema is a condition that causes your skin to become dry, itchy, and bumpy. This condition weakens your skin’s barrier function, which helps your skin retain moisture and protects your body from outside elements. Eczema is a type of dermatitis.",
+      "symptoms": [
+        "Dry skin.",
+        "Itchy skin.",
+        "Skin rash.",
+        "Bumps on your skin.",
+        "Thick, leathery patches of skin.",
+        "Flaky, scaly, or crusty skin.",
+        "Swelling."
+      ],
+      "treatment": [
+        "Use gentle or sensitive skin moisturizers throughout the day.",
+        "Apply topical medications like steroids as advised by your provider.",
+        "Take oral medications such as anti-inflammatory medicines, antihistamines, or corticosteroids.",
+        "Use immunosuppressant drugs to help regulate your immune system.",
+        "Consider light therapy to improve skin appearance.",
+        "Avoid triggers that cause eczema flare-ups."
+      ]
+    },
+    {
+      "id": "Keratosis",
+      "name": "Keratosis",
+      "description": "Keratosis is a skin condition where excess keratin builds up in the skin, resulting in rough, scaly patches. These patches may be caused by sun exposure, aging, or genetics.",
+      "symptoms": "Symptoms of keratosis include rough, scaly patches on the skin, particularly in areas that are frequently exposed to the sun. They can vary in color from white to brown.",
+      "treatment": "Treatment options include cryotherapy (freezing), topical medications to reduce keratin buildup, and laser therapy to remove damaged skin cells."
+    },
+    {
+      "id": "Milia",
+      "name": "Milia",
+      "description": "Milia are small, white bumps that appear on the skin when keratin becomes trapped beneath the surface. These bumps are usually found around the eyes, nose, and cheeks.",
+      "symptoms": "Small, white or yellowish cysts on the skin, typically painless and non-itchy.",
+      "treatment": "Treatment for milia includes using exfoliating skincare products, professional extraction, and topical retinoids to promote cell turnover."
+    },
+    {
+      "id": "Rosacea",
+      "name": "Rosacea",
+      "description": "Rosacea is a chronic skin condition characterized by facial redness, visible blood vessels, and sometimes acne-like bumps.",
+      "symptoms": [
+        "Facial redness and flushing.",
+        "Visible blood vessels.",
+        "Bumps and pimples on the face.",
+        "Dry or irritated eyes."
+      ],
+      "treatment": [
+        "Topical medications like metronidazole.",
+        "Oral antibiotics for inflammatory lesions.",
+        "Laser therapy to reduce redness."
+      ]
+    },
+    {
+    "id": "Unknown_Normal",
+    "name": "Unknown_Normal",
+    "description": "Normal skin with no observable disease or abnormalities.",
+    "symptoms": [],
+    "treatment": []
+    }
+]
+}
